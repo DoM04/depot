@@ -14,3 +14,9 @@ two:
   description: MyText
   image_url: MyString.gif
   price: 9.99
+
+Three:
+  title: Book1
+  description: MyText
+  image_url: MyStrings.gif
+  price: 9.99
