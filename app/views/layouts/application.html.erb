@@ -13,6 +13,11 @@
 </div>
 <div id="columns">
   <div id="side">
+    <% if @cart %>
+    <div id="cart">
+      <%= render @cart %>
+    </div>
+	<% end %>
     <ul>
 	<%= Time.now.utc.strftime('%v')  %>
 	<%= Time.now.utc.strftime("%H:%M:%S") %>
