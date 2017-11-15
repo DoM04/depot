@@ -1,5 +1,5 @@
 class AddOrderToLineItems < ActiveRecord::Migration
   def change
-    add_column :line_items, :order, :refernces
+    add_reference :line_items, :order, index: true, foreign_key: true
   end
 end
